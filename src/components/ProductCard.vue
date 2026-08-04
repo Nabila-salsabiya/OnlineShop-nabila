@@ -20,4 +20,5 @@ defineProps(['nama', 'harga', 'gambar'])
  width: 100%;
  border-radius: 6px;
 }
+
 </style>
