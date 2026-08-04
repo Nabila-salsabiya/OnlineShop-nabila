@@ -1,0 +1,11 @@
+@import './base.css';
+
+body{
+  font-family: "arial", sans-serif;
+}
+.main {
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(rgb(153, 240, 243))
+}
+ 
