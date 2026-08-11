@@ -6,10 +6,10 @@ body{
 .main {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(rgb(153, 240, 243))
+  background: linear-gradient(rgb(243, 153, 200))
 }
 .btn-grad {
-  background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD 51%, #4CB8C4 100%);
+  background-image: linear-gradient(to right, #c44c98 0%, #3CD3AD 51%, #4CB8C4 100%);
 }
 
 .btn-grad {
@@ -32,4 +32,52 @@ body{
   color: #fff;
   text-decoration: none;
 }
- 
+.iyaa{
+  text-align: center ;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.iyaa{
+  text-align: center;
+  padding: 20px;
+  background: pink;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px bisque;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.iyaa {
+  text-align: center;
+  padding: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px bisque;
+  margin-top: 20px;
+  margin-right: 20px; 
+}
+ .btn-grad {
+  background-image: linear-gradient(to right, #EECDA3 0%, #EF629F 51%, #EECDA3 100%);
+}
+
+.btn-grad {
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  outline: none;
+  border: none;
+}
+
+.btn-grad:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}

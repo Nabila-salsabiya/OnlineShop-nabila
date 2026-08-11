@@ -5,12 +5,28 @@ import router from '@/router';
 
 <template>
     <main>
-    <div class="main">
-    <h1>Selamat datang di onlineshop akuUuu</h1>
-    <p>Belanja gampang, mudah, dan senang.</p>
+    <h1>Selamat datang di OnlineShop</h1>
+    <p>Belanja gampang, mudah, dan lempang.</p>
+    <video controls width="480" loop>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4"/>
+    </video>
     <button class="btn-grad">
-        <router-link to="/product">Lihat produk</router-link>
+        <RouterLink to="/product">lanjut beli</RouterLink>
     </button>
-    </div>
      </main>
+     <div class="iyaa">
+<h3>😍😍</h3>
+<p>set make up dior</p>
+     </div>
+     <div class="iyaa">
+        <h3>😍😍</h3>
+        <p>Disini ada mke up dior ori</p>
+        </div>
     </template>
+    <style scoped>
+video {
+    margin-top: 16px;
+    border-radius: 10px;
+    display:block;
+}
+</style>
