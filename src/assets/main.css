@@ -2,14 +2,15 @@
 
 body{
   font-family: "arial", sans-serif;
+  background-color: rgb(211, 59, 153);
 }
 .main {
   text-align: center;
   padding: 20px;
-  background: linear-gradient(rgb(243, 153, 200))
+  background: linear-gradient(rgb(232, 124, 180))
 }
 .btn-grad {
-  background-image: linear-gradient(to right, #c44c98 0%, #3CD3AD 51%, #4CB8C4 100%);
+  background-image: linear-gradient(to right, lightpink 0%, #3CD3AD 51%, bisque 100%);
 }
 
 .btn-grad {
@@ -19,8 +20,8 @@ body{
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
+  color: rgb(101, 16, 64);
+  box-shadow: 0 0 20px #841446;
   border-radius: 10px;
   display: inline-block;
   outline: none;
@@ -29,7 +30,7 @@ body{
 
 .btn-grad:hover {
   background-position: right center;
-  color: #fff;
+  color: #a3226d;
   text-decoration: none;
 }
 .iyaa{
@@ -42,7 +43,7 @@ body{
 .iyaa{
   text-align: center;
   padding: 20px;
-  background: pink;
+  background: rgb(129, 19, 93);
   border-radius: 10px;
   box-shadow: 0 4px 6px bisque;
   margin-top: 20px;
@@ -51,14 +52,14 @@ body{
 .iyaa {
   text-align: center;
   padding: 20px;
-  background-color: pink;
+  background-color: rgb(143, 49, 109);
   border-radius: 10px;
   box-shadow: 0 4px 6px bisque;
   margin-top: 20px;
   margin-right: 20px; 
 }
  .btn-grad {
-  background-image: linear-gradient(to right, #EECDA3 0%, #EF629F 51%, #EECDA3 100%);
+  background-image: linear-gradient(to right, #5f1036 0%, #EECDA3 51%, #a3d0ee 100%);
 }
 
 .btn-grad {
@@ -69,7 +70,7 @@ body{
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  box-shadow: 0 0 20px #eee;
+  box-shadow: 0 0 20px #520f34;
   border-radius: 10px;
   display: block;
   outline: none;
@@ -78,6 +79,6 @@ body{
 
 .btn-grad:hover {
   background-position: right center;
-  color: #fff;
+  color: #780e4a;
   text-decoration: none;
 }
